@@ -2,6 +2,7 @@
 
 import sys
 import os
+import generate_list.py
 cwd = os.getcwd() 
 sys.path.append(cwd)
 # print(sys.path)
