@@ -1,5 +1,5 @@
 import random
-def generate_list():
+def generate_list() :
     alist = [x for x in range(random.randint(-10,10))]
     return alist
     
@@ -21,4 +21,5 @@ if this script flie is called, it will run main() directly
 if __name__ == '_main_' :
     print("Test printIt() :")
     main()
-    
+
+
